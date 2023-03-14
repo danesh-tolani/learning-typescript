@@ -17,4 +17,9 @@ type User = {
 const allUser: User[] = [];
 allUser.push({ name: "Danesh", isActive: true }); // we can only push data of type User now
 
+const MLModels: number[][] = [
+  [255, 255, 255],
+  [123, 456, 789],
+]; // the type is array or arrays of number
+
 export {};
